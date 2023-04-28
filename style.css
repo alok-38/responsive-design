@@ -1,9 +1,42 @@
+body {
+    overflow-y: hidden;
+}
+
 header {
     text-align: center;
-    margin: 2em 0 2em 0;
+    margin: 2em auto 2em auto;
+}
+
+h1 {
+    font-size: 48px;
+    color: #2e7ad3;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+a {
+    color: #ff8000;
 }
 
 .blog-post {
-    width: 40%;
+    width: 45%;
     margin: auto;
+    background-color: #f1f1f1;
+    padding: 1em;
+}
+
+.blog-post img {
+    width: 100%;
+}
+
+.blog-post p {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    /* CSS rules for screens 768px or less */
+
+   
 }
