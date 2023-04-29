@@ -5,19 +5,25 @@ body {
 header {
     text-align: center;
     margin: 2em auto 2em auto;
+    width: 50%;
 }
 
 h1 {
     font-size: 48px;
     color: #2e7ad3;
+    width: 100%;
+    margin: auto;
 }
 
 h2 {
     font-size: 32px;
+    color: #104c90;
+    margin: 0;
 }
 
 a {
     color: #ff8000;
+    font-weight: 600;
 }
 
 .blog-post {
@@ -29,14 +35,37 @@ a {
 
 .blog-post img {
     width: 100%;
+    margin: 25px 0 25px 0;
 }
 
 .blog-post p {
     font-size: 16px;
+    margin-top: 9px;
+    line-height: 1.4;
+    width: 100%;
+    margin-bottom: 9px;
 }
 
 @media (max-width: 768px) {
     /* CSS rules for screens 768px or less */
+    header {
+        width: 100%;
+    }
 
-   
+    h1 {
+        font-size: 34px;
+        color: #2e7ad3;
+        width: 100%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .blog-post p {
+        font-size: 14px;
+    }
+
 }
